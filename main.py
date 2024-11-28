@@ -19,10 +19,6 @@ print_ngrok_instructions()
 #       2. Run NGROK using the command above in a terminal
 #       3. Run this
 
-# TODO: 
-#       Add all requests (from both channel points and POSTs) to a blocking queue
-#       Process queue one by one to enable pop ups
-
 redemption_queue = queue.Queue()
 
 secret_key = os.urandom(16)
