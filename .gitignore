@@ -1,0 +1,8 @@
+get_token.py
+keys.py
+.env
+*.pyc
+__pycache__/
+*.log
+.vscode/
+venv/
